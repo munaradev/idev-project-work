@@ -1,0 +1,929 @@
+body {
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+.header a {
+    /* width: 104px;  */
+    height: 26px;
+    top: 32px;
+    left: 447px;
+    gap: 0px;
+    opacity: 0px;
+    color: #222222;
+}
+
+.btn-header {
+    color: #24160B;
+    width: 154px;
+    height: 57px;
+    top: 16px;
+    left: 948px;
+    border-radius: 80px;
+    background-color: #EFAE35;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 400px;
+}
+
+#header {
+    margin: 20px 0;
+    position: sticky;
+    top: 0;
+    background: transparent;
+    backdrop-filter: blur(8px);
+}
+
+/* section */
+#turns {
+    background-image: url(img/zadn.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.turns h1 {
+    width: 551px;
+    height: 144px;
+    top: 319px;
+    left: 90px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    color: #000000;
+}
+
+.turns h3 {
+    width: 559px;
+    height: 31px;
+    top: 495px;
+    left: 90px;
+
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30.6px;
+    padding: 20px 0;
+
+
+}
+
+.turns a {
+    width: 90px;
+    height: 26px;
+    top: 612px;
+    left: 122px;
+
+    color: #24160B;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.2px;
+
+
+}
+
+.turns {
+    padding: 200px 0;
+}
+
+
+
+
+
+/* section */
+
+
+.intro h1 {
+    width: 412px;
+    height: 72px;
+    top: 1146px;
+    left: 162px;
+    font-size: 60px;
+    font-weight: 400;
+    color: #24160B;
+}
+
+.intro p {
+    width: 416px;
+    height: 153px;
+    top: 1250px;
+    left: 162px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    /* text-align: left; */
+    color: #24160B;
+    padding: 40px 0;
+}
+
+.btn1 {
+
+
+    width: 70px;
+    height: 26px;
+
+    font-size: 16px;
+    font-weight: 400;
+    width: 134px;
+    height: 57px;
+    border-radius: 80px;
+    background-color: #EFAE35;
+
+}
+
+.btn2 {
+    width: 101px;
+    height: 26px;
+    width: 101px;
+    height: 2px;
+    background-color: #24160B1F;
+}
+
+.intro-rod {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro {
+    margin: 300px 0;
+}
+
+
+/* section */
+
+
+
+.spend-text h1 {
+    width: 347px;
+    height: 115px;
+    font-size: 44px;
+    font-weight: 400;
+    color: #24160B;
+}
+
+.spend-text p {
+    width: 442px;
+    height: 153px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    color: #24160B;
+    padding: 30px 0;
+}
+
+.spend-text h3 {
+    width: 108px;
+    height: 56px;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+
+.spend-text h6 {
+    width: 136px;
+    height: 31px;
+
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 30.6px;
+    padding: 10px 0;
+}
+
+.spend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#spend {
+    margin: 200px 0;
+}
+
+/* section */
+
+
+.teach-text h1 {
+    width: 440px;
+    height: 115px;
+
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57.2px;
+
+}
+
+.teach-text p {
+    width: 457px;
+    height: 153px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    padding: 27px 0;
+}
+
+.teach-text h3 {
+    width: 116px;
+    height: 56px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+.teach-text h6 {
+    width: 130px;
+    height: 31px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 30.6px;
+}
+
+.teach {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* section */
+
+
+.partner-text h1 {
+    width: 386px;
+    height: 115px;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57.2px;
+
+}
+
+.partner-text p {
+    width: 456px;
+    height: 153px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px 0;
+}
+
+.partner-text h3 {
+    width: 109px;
+    height: 56px;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 56px;
+
+}
+
+.partner-text h6 {
+    width: 101px;
+    height: 31px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 30.6px;
+}
+
+.partner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#partner {
+    margin: 200px 0;
+}
+
+
+
+/* section */
+
+
+
+.take-text h1 {
+    width: 364px;
+    height: 115px;
+    top: 3800px;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.take-text p {
+    width: 454px;
+    height: 153px;
+    top: 3934px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px 0;
+}
+
+.take-text h3 {
+    width: 101px;
+    height: 56px;
+    top: 4112px;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+.take-text h6 {
+    width: 73px;
+    height: 31px;
+    top: 4234px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 30.6px;
+
+}
+
+.take {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#take {
+    margin: 200px 0;
+}
+
+
+/* section */
+
+
+.future h1 {
+    width: 216px;
+    height: 58px;
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 57.2px;
+    margin: 0 auto;
+}
+
+.brand-list {
+    overflow: hidden;
+}
+
+.wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 240px;
+    animation: scroll 10s linear infinite;
+    padding: 40px 0;
+}
+
+@keyframes scroll {
+    to {
+        translate: calc(-4 * 240px);
+    }
+}
+
+
+
+/* section */
+
+#see {
+    background-image: url(img/zadn2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.see h1 {
+    width: 443px;
+    height: 72px;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 72px;
+    color: #fff;
+    padding: 189px 0 0;
+}
+
+.see h3 {
+    width: 567px;
+    height: 40px;
+    top: 5260px;
+    left: 90px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.see ion-icon {
+    color: #161616;
+    background-color: #fff;
+    width: 128px;
+    height: 128px;
+}
+
+.see h4 {
+    width: 201px;
+    height: 52px;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.see div {
+    display: flex;
+
+}
+
+#see {
+    margin: 200px 0;
+}
+
+
+
+
+/* section */
+
+
+
+.express-text h1 {
+    width: 373px;
+    height: 58px;
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 57.2px;
+
+}
+
+.express-text p {
+    width: 448px;
+    height: 123px;
+
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px 0;
+}
+
+.express-text a {
+    color: #000000;
+}
+
+.express {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#express {
+    margin: 100px 0;
+}
+
+
+
+/* section */
+
+
+
+.the-app-text h1 {
+    width: 241px;
+    height: 58px;
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 57.2px;
+    text-align: left;
+
+}
+
+.the-app-text p {
+    width: 454px;
+    height: 184px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    text-align: left;
+    padding: 30px 0;
+
+}
+
+.the-app-text a {
+    color: #000000;
+}
+
+.the-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#the-app {
+    margin: 100px 0;
+}
+
+
+/* section */
+
+
+
+.aro-text h1 {
+    width: 411px;
+    height: 58px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 57.2px;
+    text-align: left;
+
+}
+
+.aro-text p {
+    width: 458px;
+    height: 153px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    text-align: left;
+    padding: 30px 0;
+
+}
+
+.aro-text a {
+    color: #000000;
+}
+
+.aro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aro {
+    margin: 100px 0;
+}
+
+
+
+
+
+
+
+/* section */
+
+
+
+.get button {
+
+    font-size: 17px;
+    font-weight: 400;
+
+    width: 225px;
+    height: 57px;
+
+    border-radius: 80px;
+
+    background-color: #F5F8FA, #00000012;
+    margin: 200px 0;
+}
+
+#get {
+    background-image: url(img/zadn3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    margin: 200px 0;
+}
+
+
+
+/* \secrtion */
+
+
+
+
+.done-text p {
+    width: 317px;
+    height: 153px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 10px 0 40px 0;
+
+}
+
+.done-text h3 {
+    width: 248px;
+    height: 28px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: left;
+    color: #FCF8F4;
+    padding: 30px 0 40px 0;
+
+
+}
+
+
+.done {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#done {
+    background: #24160B;
+    width: 100%;
+    margin: 150px 0;
+
+}
+
+
+
+
+/* section */
+
+
+.are h1 {
+    width: 228px;
+    height: 72px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: center;
+
+}
+
+.p {
+    width: 655px;
+    height: 31px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30.6px;
+    text-align: center;
+    padding: 20px 0 30px 0;
+
+}
+
+.block h3{
+    width: 229px;
+height: 66px;
+top: 9161px;
+font-size: 22px;
+font-weight: 400;
+line-height: 33px;
+text-align: left;
+padding: 20px 0;
+
+}
+
+.block p{
+    width: 230px;
+    height: 179px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+        
+}
+
+.block-gen{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+
+/* section */
+
+
+.text h1{
+    width: 879px;
+height: 368px;
+font-size: 92px;
+font-weight: 400;
+line-height: 92px;
+text-align: center;
+}
+
+.text p{
+    /* width: 248px; */
+height: 31px;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+}
+#text{
+    margin: 300px 0;
+}
+
+
+/* section */
+
+
+.text2 h1{
+    width: 942px;
+height: 276px;
+font-size: 92px;
+font-weight: 400;
+line-height: 92px;
+text-align: center;
+
+}
+
+#text2{
+    margin: 300px 0;
+}
+
+
+/* section */
+
+
+.life-img2 h3{
+    padding: 200px 0 0;
+    width: 407px;
+height: 144px;
+font-size: 60px;
+font-weight: 400;
+line-height: 72px;
+text-align: center;
+color:#fff;
+}
+.life-img2 p{
+    width: 449px;
+height: 31px;
+font-size: 18px;
+font-weight: 400;
+line-height: 30.6px;
+color:#fff;
+text-align: center;
+padding: 20px 0;
+
+}
+
+.life-img2 button{
+font-size: 16px;
+font-weight: 400;
+
+text-align: center;
+width: 134px;
+height: 57px;
+border-radius: 80px;
+background-color: #EFAE35;
+
+}
+
+.life-img2{
+    background-image:url(img/zadn4.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 711px;
+    height: 585px;
+    padding: 0 0 0 0;
+   
+    
+}
+
+.life{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+#life{
+    margin: 100px 0 200px 0;
+}
+
+
+
+/* footer */
+
+
+
+.footer-text h4{
+    width: 141px;
+height: 33px;
+font-size: 21px;
+font-weight: 400;
+line-height: 33px;
+text-align: left;
+
+}
+
+.footer-text p{
+    
+    width: 84px;
+height: 19px;
+font-size: 13px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+color:#70706C;
+margin: 20px 0;
+}
+
+.input h4{
+    width: 91px;
+height: 33px;
+font-size: 20px;
+font-weight: 400;
+line-height: 33px;
+text-align: left;
+
+}
+.input input{
+    width: 342px;
+height: 49px;
+
+border-radius: 88px;
+border: 1px solid #70706C33;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#footer{
+    margin: 100px 0;
+}
+
+
+
+/* footer2 */
+
+.link{
+    width: 100%;
+    background-color: #70706C33;
+    height: 1px;
+}
+
+.footer-text2 p{
+    width: 283px;
+height: 40px;
+font-size: 8px;
+font-weight: 400;
+line-height: 13.31px;
+text-align: left;
+color:#70706C;
+}
+
+.footer-text2 h4{
+    width: 197px;
+height: 21px;
+font-size: 13px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+color:#70706C;
+}
+
+.logo ion-icon{
+    width: 48px;
+height: 48px;
+border: 1px solid #70706C33;
+margin-left: 20px;
+}
+
+.text-foot p{
+    width: 89px;
+height: 19px;
+font-size: 13px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: right;
+color:#70706C;
+}
+
+
+.div{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 50px 0 50px;
+}
